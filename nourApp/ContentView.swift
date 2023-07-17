@@ -19,7 +19,7 @@ struct ContentView: View {
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
                 .padding(.horizontal)
-            Button("click to learn more about me") {showBio.toggle()
+            Button("click to learn more about me👀") {showBio.toggle()
             }
                     .font(/*@START_MENU_TOKEN@*/.title2/*@END_MENU_TOKEN@*/)
                     .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
